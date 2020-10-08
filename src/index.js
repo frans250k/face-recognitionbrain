@@ -5,11 +5,16 @@ import App from "./App";
 import 'tachyons';
 import './styles.css';
 
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
-
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>, rootElement
+  );
+  
+  // ReactDOM.render(
+  //   <div>
+  //     <App />, document.getElementById("root")
+  //   </div>
+  // );
