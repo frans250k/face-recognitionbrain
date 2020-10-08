@@ -1,9 +1,11 @@
-import react from 'react';
+import React from "react";
 
 const Navigation = () => {
-return <nav>
-  <p>Sign Out</p>
-</nav>
-}
+  return (
+    <nav style={{ display: "flex", justifyContent: "flex-end" }}>
+      <p className="f3 link dim black underline pa4 pointer">Sign Out</p>
+    </nav>
+  );
+};
 
-export default Navigation 
+export default Navigation;
