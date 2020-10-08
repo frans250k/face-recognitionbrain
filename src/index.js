@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import './index.css';
 import 'tachyons';
+import './styles.css';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
@@ -12,3 +12,4 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
+
