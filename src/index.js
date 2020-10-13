@@ -8,9 +8,7 @@ import './styles.css';
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>, rootElement
+      <App />, rootElement
   );
   
   // ReactDOM.render(
